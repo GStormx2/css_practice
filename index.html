@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="tailwind.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Container-->
+    <div class="flex flex-grow h-screen">Hello</div>
+    <!--the main Footer-->
+    <footer class="text-gray-900">
+
+        <!--Start of each section. There are 3 sections total-->
+        <!--First section contains page links "About", "Resources", "Contact", "Stay Updated"-->
+        <section class="ft-section flex flex-col space-y-10">
+            
+            <!--Encalsulating About, Resources and Contact for better space adjustment-->
+            <!--Stay Updated-->
+            <div >
+                <div>
+                    <h1 class="font-medium">Sign up to our newsletter</h1>
+                    <p>Enter your email address to stay up to date with the latest offers, tutorials, downloads, surverys and more.</p>
+                    <form class="flex h-8">
+                        <input class="w-full px-5 bg-gray-100" type="email" name="email" placeholder="Enter Address">
+                        <input class="px-7 ableton-bg-blue text-white font-medium" type="submit" value="Sign up">
+                    </form>
+                </div>
+                
+            </div>
+
+            <!--Social Links-->
+            <div>
+                <ul>
+                    <li><a>Register Live or Push </a></li>
+                    <li><a>About Ableton </a></li>
+                    <li><a>Jobs </a></li>
+                </ul>
+                <div class="flex space-x-3 mt-2">
+                    <a class="none fa fa-facebook fa-2x"></a>
+                    <a class="none fa fa-twitter fa-2x"></a>
+                    <a class="none fa fa-youtube-play fa-2x"></a>
+                    <a class="none fa fa-instagram fa-2x"></a>
+                </div>
+            </div>
+            
+            <!--Education-->
+            <div>
+                <h1 class="font-medium">Education</h1>
+                <ul class="text-gray-700">
+                    <li><a>Offers fr students and teachers </a></li>
+                    <li><a>Ableton for the Classroom </a></li>
+                    <li><a>Ableton for Colleges and Universities </a></li>
+                </ul>
+            </div>
+            
+            <!--Community-->
+            <div>
+                <h1 class="font-medium">Community</h1>
+                <ul class="text-gray-700">
+                    <li><a>Find Ableton User Groups </a></li>
+                    <li><a>Find Certified Training </a></li>
+                    <li><a>Become a Certified Trainer </a></li>
+                </ul>
+            </div>
+
+            <!--Contact-->
+            <div>
+                <h1 class="font-medium">Distributors </h1>
+                <ul class="text-gray-700">
+                    <li><a>Find Disctributors </a></li>
+                    <li><a>Try Push in-store </a></li>
+                </ul>
+            </div>
+
+            <!--Languages and Location-->
+            <div>
+                <h1 class="font-medium">Languages and Location</h1>
+                <div class="flex space-x-3 text-sm">
+                    <select class="bg-gray-100 px-2 py-1 w-32">
+                        <option value="english">English</option>
+                        <option value="deutsch">Deutsch</option>
+                        <option value="ghetu">Ghetu</option>
+                    </select>
+                    <select class="bg-gray-100 px-2 py-1 w-56">
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="india">India</option>
+                        <option value="nafiur">Nafiur</option>
+                    </select>    
+                </div>
+            </div>
+
+            <!--Other Links-->
+            <div>
+                <ul class="text-sm space-y-1">
+                    <li><a class="none">Archive</a></li>
+                    <li><a class="none">Contact Us</a></li>
+                    <li><a class="none">Press Resources</a></li>
+                    <li><a class="none">legal Info</a></li>
+                    <li><a class="none">Privacy Policy</a></li>
+                    <li><a class="none">Cookie Settings</a></li>
+                    <li><a class="none">Imprint</a></li>
+                </ul>
+            </div>
+
+        </section>
+
+        
+
+        <!--Logo-->
+        <section class="flex flex-row space-x-3 ft-section my-14">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+            </svg>
+            <p class="text-sm my-auto">Made in Bangladesh</p>
+        </section>
+
+    </footer>
+</body>
+</html>

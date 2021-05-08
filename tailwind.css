@@ -1,0 +1,103 @@
+a::after {
+    content: ">";
+    font-size: 0.65rem;
+}
+.ft-section {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.none::after {
+    content: "";
+}
+.fa {
+    padding: 10px;
+    width: 60px;
+    text-align: center;
+    font-size: 0.5rem;
+    color: white;
+    text-decoration: none;
+    background: red;
+}
+.fa-facebook {
+    background: #3b5998;
+}
+.fa-twitter {
+    background: #55acee;
+}
+.fa-instagram {
+    background: #ffc273;
+}
+.ableton-bg-blue {
+    background: #0000ff;
+}
+
+.ableton-yellow {
+    color: #fbffa7;
+}
+.ableton-orange {
+    color: #ff764d;
+}
+.ableton-skyblue {
+    color: #b1c5ff;
+}
+.ableton-purple {
+    color: #d5b3ff;
+}
+.ableton-green {
+    color: #b6ffc0;
+}
+.ableton-blue {
+    color: #0000ff;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+    light - light 300
+    book - normal 400
+    medium - medium 500
+    demi - semibold 600
+    heavy - bold 700
+    bold - extrabold 800
+    extra bold - extrabold 900
+
+*/
+@layer base {
+    @font-face {
+        font-family: Futura PT;
+        font-weight: 400;
+        src: url(/fonts/FuturaPTBook.otf) format("otf");
+    }
+    /* @font-face {
+        font-family: Futura PT;
+        font-weight: 700;
+        src: url(/fonts/FuturaPTHeavy.otf) format("otf");
+    }
+    @font-face {
+        font-family: Futura PT;
+        font-weight: 300;
+        src: url(/fonts/FuturaPTlight.otf) format("otf");
+    }
+    @font-face {
+        font-family: Futura PT;
+        font-weight: 500;
+        src: url(/fonts/FuturaPTMedium.otf) format("otf");
+    }
+    @font-face {
+        font-family: Futura PT;
+        font-weight: 600;
+        src: url(/fonts/FuturaPTDemi.otf) format("otf");
+    }
+    @font-face {
+        font-family: Futura PT;
+        font-weight: 800;
+        src: url(/fonts/FuturaPTBold.otf) format("otf");
+    }
+    @font-face {
+        font-family: Futura PT;
+        font-weight: 900;
+        src: url(/fonts/FuturaPTExtraBold.otf) format("otf");
+    } */
+}
