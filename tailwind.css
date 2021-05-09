@@ -1,10 +1,16 @@
+.img-1 {
+    height: 30vh;
+}
+.hr-line {
+    height: 2px;
+}
 a::after {
     content: ">";
     font-size: 0.65rem;
 }
 .ft-section {
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 .none::after {
     content: "";
