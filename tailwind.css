@@ -1,3 +1,40 @@
+.purple-background {
+    width: 66.66667vw;
+    height: 58.33333vw;
+    left: 16.66667vw;
+    background-color: #d5b3ff !important; 
+}
+.test-block {
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 50% 50%; 
+    background-image: url("https://ableton-production.imgix.net/about/photo-6-a.jpg?dpr=2&fit=crop&h=150&ixjsv=1.1.3&q=50&w=200");
+    width: 33.33333vw;
+    height: 25vw;
+    margin-left: 8.33333vw;
+}
+
+.first-photo {
+    min-height: 80vh;
+}
+.color-bg-sm {
+    min-height: 50vh;
+    height: 100%;
+}
+.green-bg-sm {
+    height: 50vh;
+}
+.text-padding {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+}
+.photo{
+   background-repeat: no-repeat;
+   backgrtound-size: cover;
+   background-position: 50% 50%;
+   width: 41.6667vw;
+   height: 31.6667vh;
+}
 .img-1 {
     height: 30vh;
 }
@@ -8,6 +45,7 @@ a::after {
     content: ">";
     font-size: 0.65rem;
 }
+
 .ft-section {
     padding-left: 8%;
     padding-right: 8%;
@@ -38,7 +76,7 @@ a::after {
 }
 
 .ableton-yellow {
-    color: #fbffa7;
+    background: linear-gradient(to right, white 0%,white 40%,#fbffa7 40%,#fbffa7 50%,#fbffa7 100%); /*#fbffa7*/
 }
 .ableton-orange {
     color: #ff764d;
@@ -47,10 +85,10 @@ a::after {
     color: #b1c5ff;
 }
 .ableton-purple {
-    color: #d5b3ff;
+    background: linear-gradient(to right, white 0%,white 15%,#d5b3ff 15%,#d5b3ff 85%,white 85%, white 100%);/*#d5b3ff*/
 }
 .ableton-green {
-    color: #b6ffc0;
+    background: linear-gradient(to left, white 0%,white 40%,#b6ffc0 40%,#b6ffc0 50%,#b6ffc0 100%); /*#b6ffc0*/
 }
 .ableton-blue {
     color: #0000ff;
