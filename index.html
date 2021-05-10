@@ -10,122 +10,162 @@
 </head>
 <body class="overflow-x-hidden bg-gray-200">
     
-    <div class="bg-white xl:mx-36">
+    <div class="relative bg-white">
 
         <!--top menu bar-->
-        <div class="flex space-x-6 px-10 py-2">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-            </svg>
-            <a class="font-medium text-xl mt-4 none">Menu</a>
+        <div class="flex justify-between space-x-6 px-3 xl:px-6 xl:py-3 py-2">
+            <div class="flex space-x-6">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                </svg>
+                <a href="#" class="lg:hidden font-medium text-xl mt-4 none">Menu</a>
+                <a href="#" class="a-1 invisible lg:visible font-medium text-xl mt-4 none">Live</a>
+                <a href="#" class="a-2 invisible lg:visible font-medium text-xl mt-4 none">Push</a>
+                <a href="#" class="a-3 invisible lg:visible font-medium text-xl mt-4 none">Shop</a>
+                <a href="#" class="a-4 invisible lg:visible font-medium text-xl mt-4 none">Link</a>
+                <a href="#" class="a-5 invisible lg:visible font-medium text-xl mt-4 none">Packs</a>
+                <a href="#" class="a-6 invisible lg:visible font-medium text-xl mt-4 none">Help</a>
+                <a href="#" class="a-7 invisible lg:visible font-medium text-xl mt-4 none">More +</a>
+            </div>
+            <div class="pt-4">
+                <a href="#" class="a-8 invisible lg:visible font-medium text-xl none ableton-blue">Try Live for free</a>
+                <a href="#" class="a-9 invisible lg:visible font-normal text-sm none mx-4 ">Log in or register</a>
+            </div>
+            
+
+
         </div>
 
         <!--horizontal line-->
         <div class="hr-line w-full bg-gray-200"></div>
         
         <!--another menu under menu-->
-        <div class="flex text-sm space-x-5 pl-10 py-5">
-            <a class="none ableton-orange">About</a>
-            <a class="none">Jobs</a>
+        <div class="flex text-sm xl:text-base font-medium space-x-5 xl:space-x-8 pl-5 xl:pl-8 xl:py-7 py-5">
+            <a href="#" class="none ableton-orange">About</a>
+            <a href="#" class="none">Jobs</a>
         </div>
 
 
         <!--Container-->
-        <div class="flex flex-col flex-grow">
+        <div class="">
             
             <!--ableton image and logo-->
-            <div class="px-12 relative text-center">
-                <img class="object-cover first-photo" src="/resized/header.png" alt="header img">
-                <p class="absolute text-red-500 text-6xl font-semibold top-2/4 left-2/4 transform -translate-x-1/2 -translate-y-1/2 ">Ableton</p>
+            <div class="margin-x-equal relative text-center">
+                <img class="object-cover first-photo" src="/img/header.jpg" alt="header img">
+                <p class="absolute text-red-500 text-6xl md:text-9xl font-semibold top-2/4 left-2/4 transform -translate-x-1/2 -translate-y-1/2 ">Ableton</p>
             </div>
             
             <!--first text  lg:px-96 lg:py-40  text-3xl text-xl-->
-            <div class="py-14 px-12">
-                <h1 class="font-medium text-xl my-auto">We make <span class="ableton-blue">Live, Push</span> and <span class="ableton-blue">Link</span> — unique software and hardware for music creation and performance. With these products, our community of users creates amazing things.</h1>
-                <p class="font-light text-base mt-3">Ableton was founded in 1999 and released the first version of Live in 2001. Our products are used by a community of dedicated musicians, sound designers, and artists from across the world.</p>
+            <div class="py-14 margin-x-equal md:px-20 xl:px-48 xl:py-28">
+                <h1 class="font-medium text-xl my-auto xl:text-3xl">We make <span class="ableton-blue">Live, Push</span> and <span class="ableton-blue">Link</span> — unique software and hardware for music creation and performance. With these products, our community of users creates amazing things.</h1>
+                <p class="font-light text-base xl:text-xl mt-3">Ableton was founded in 1999 and released the first version of Live in 2001. Our products are used by a community of dedicated musicians, sound designers, and artists from across the world.</p>
             </div>
 
 
             <!--yello area-->
             <div class="">
-                <div class="grid grid-cols-2 grid-rows-1 color-bg-sm ableton-yellow px-12">
-                    <img class="my-auto" src="/resized/photo-1.png">
-                    <img class="pl-16 pr-4 my-auto" src="/resized/photo-2.png">
+                <div class="grid grid-cols-2 grid-rows-1 color-bg-sm ableton-yellow">
+                    <img class="object-cover yellow-img-1 my-auto" style="max-width: 640px;" src="/img/photo-1.jpg"> <!--src="https://ableton-production.imgix.net/about/photo-1.jpg?dpr=2&fit=crop&h=250&ixjsv=1.1.3&q=50&w=250"-->
+                    <img class="object-cover yellow-img-2 my-auto" style="max-width: 512px;" src="/img/photo-2.jpg"> <!--src="https://ableton-production.imgix.net/about/photo-2.jpg?dpr=2&fit=crop&h=150&ixjsv=1.1.3&q=50&w=200"-->
                 </div>
                 
             </div>
 
             <!--second text area-->
-            <div class="py-14 px-12">
-                <h1 class="font-medium text-xl my-auto">Making music isn’t easy. It takes time, effort, and learning. But when you’re in the flow, it’s incredibly rewarding.</h1>
-                <p class="font-light text-base mt-3">We feel the same way about making Ableton products. The driving force behind Ableton is our passion for what we make, and the people we make it for.</p>
+            <div class="py-14 margin-x-equal md:px-20 xl:px-48 xl:py-28">
+                <h1 class="font-medium text-xl my-auto xl:text-3xl">Making music isn’t easy. It takes time, effort, and learning. But when you’re in the flow, it’s incredibly rewarding.</h1>
+                <p class="font-light text-base xl:text-xl mt-3">We feel the same way about making Ableton products. The driving force behind Ableton is our passion for what we make, and the people we make it for.</p>
+            
             </div>
 
             <!--youtube video-->
-            <div class="px-12">
-                <iframe class="w-full" height="315" src="https://www.youtube.com/embed/9SbnhgjeyXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="text-sm mt-2">Why Ableton - Juanpe Bolivar</p>
+            <div class="margin-x-equal md:px-20 xl:px-48">
+                <img class="mx-auto" src="img/poster-juanpe.jpg" style="width: 53vw;">
+                <p class="text-sm mt-2 text-center">Why Ableton - Juanpe Bolivar</p>
             </div>
 
             <!--third text area-->
-            <div class="py-14 px-12">
-                <h1 class="font-medium text-xl my-auto">We are more than 350 people from 30 different countries divided between our headquarters in Berlin and our offices in Los Angeles and Tokyo.</h1>
-                <p class="font-light text-base mt-3">Most of us are active musicians, producers, and DJs, and many of us use Live and Push every day. We come from a wide range of cultural and professional backgrounds. Some of us have PhDs, some are self-taught, and most of us are somewhere in between. What connects us is the shared belief that each of us has the skills and knowledge to contribute to something big: helping to shape the future of music culture.</p>
+            <div class="py-14 margin-x-equal md:px-20 xl:px-48 xl:py-28">
+                <h1 class="font-medium text-xl my-auto xl:text-3xl">We are more than 350 people from 30 different countries divided between our headquarters in Berlin and our offices in Los Angeles and Tokyo.</h1>
+                <p class="font-light text-base xl:text-xl mt-3">Most of us are active musicians, producers, and DJs, and many of us use Live and Push every day. We come from a wide range of cultural and professional backgrounds. Some of us have PhDs, some are self-taught, and most of us are somewhere in between. What connects us is the shared belief that each of us has the skills and knowledge to contribute to something big: helping to shape the future of music culture.</p>
             </div>
 
             <!--green area-->
             <div class="">
-                <div class="grid grid-cols-2 grid-rows-2 color-bg-sm ableton-green px-12">
-                    <img class="pt-14 pr-12 pb-8 object-cover" src="/resized/photo-3.png">
-                    <img class="row-span-2 my-auto object-cover" src="/resized/photo-5.png">
-                    <img class="pt-8 pb-14 pr-12 object-cover" src="/resized/photo-4.png">
+                <div class="grid grid-cols-2 grid-rows-2 color-bg-sm ableton-green">
+                    <img class="object-cover green-img-1" style="max-width: 512px;" src="/img/photo-3.jpg"> <!--src="https://ableton-production.imgix.net/about/photo-3.jpg?dpr=2&fit=crop&h=150&ixjsv=1.1.3&q=50&w=200"-->
+                    <img class="object-cover row-span-2 my-auto green-img-2" style="max-width: 640px;" src="/img/photo-5.jpg"> <!-- src="https://ableton-production.imgix.net/about/photo-5.jpg?dpr=2&fit=crop&h=250&ixjsv=1.1.3&q=50&w=250"-->
+                    <img class="object-cover green-img-3" style="max-width: 512px;" src="/img/photo-4.jpg"> <!--src="https://ableton-production.imgix.net/about/photo-4.jpg?dpr=2&fit=crop&h=150&ixjsv=1.1.3&q=50&w=200"-->
                 </div>
             </div>
 
             <!--fourth text area-->
-            <div class="py-14 px-12">
-                <h1 class="font-medium text-xl my-auto">We believe it takes focus to create truly outstanding instruments. We only work on a few products and we strive to make them great.</h1>
-                <p class="font-light text-base mt-3">Rather than having a one-size-fits-all process, we try to give our people what they need to work their magic and grow. We’ve learned that achieving the best results comes from building teams that are richly diverse, and thus able to explore problems from a wider set of perspectives. We don’t always agree with each other, but opinion and debate are valued and openly encouraged.</p>
+            <div class="py-14 margin-x-equal md:px-20 xl:px-48 xl:py-28">
+                <h1 class="font-medium text-xl xl:text-3xl my-auto">We believe it takes focus to create truly outstanding instruments. We only work on a few products and we strive to make them great.</h1>
+                <p class="font-light text-base xl:text-xl mt-3">Rather than having a one-size-fits-all process, we try to give our people what they need to work their magic and grow. We’ve learned that achieving the best results comes from building teams that are richly diverse, and thus able to explore problems from a wider set of perspectives. We don’t always agree with each other, but opinion and debate are valued and openly encouraged.</p>
             </div>
 
             <!--just an image-->
-            <div class="px-12">
+            <div class="margin-x-equal">
                 <img src="/img/poster-meet-the-makers.jpg">
             </div>
 
             <!--fifth text area-->
-            <div class="py-14 px-12">
-                <h1 class="font-medium text-xl my-auto">We’re passionate about what we do, but we’re equally passionate about improving who we are.</h1>
-                <p class="font-light text-base mt-3">We work hard to foster an environment where people can grow both personally and professionally, and we strive to create a wealth of opportunities to learn from and with each other.</p>
-                <p class="font-light text-base mt-3">Alongside an internal training program, employees are actively supported in acquiring new knowledge and skills, and coached on applying these in their daily work. In addition, staff-organized development and music salons are a chance to discuss new technologies, production techniques and best practices.</p>
+            <div class="py-14 margin-x-equal md:px-20 xl:px-48 xl:py-28">
+                <h1 class="font-medium text-xl xl:text-3xl my-auto">We’re passionate about what we do, but we’re equally passionate about improving who we are.</h1>
+                <p class="font-light text-base xl:text-xl mt-3">We work hard to foster an environment where people can grow both personally and professionally, and we strive to create a wealth of opportunities to learn from and with each other.</p>
+                <p class="font-light text-base xl:text-xl mt-3">Alongside an internal training program, employees are actively supported in acquiring new knowledge and skills, and coached on applying these in their daily work. In addition, staff-organized development and music salons are a chance to discuss new technologies, production techniques and best practices.</p>
             </div>
 
             <!--purple area-->
-            <div class="relative">
-                <div class="absolute top-0 z-0 purple-background"></div>
-                <div class="test-block"></div>
+            <div class="">
+                <div class="grid grid-cols-2 grid-rows-1 color-bg-sm ableton-purple">
+                    <img class="object-cover my-auto purple-img-1" style="max-width: 512px;" src="/img/photo-6-a.jpg"> <!--src="https://ableton-production.imgix.net/about/photo-6-a.jpg?dpr=2&fit=crop&h=150&ixjsv=1.1.3&q=50&w=200"-->
+                    <img class="object-cover my-auto purple-img-2" style="max-width: 640px" src="/img/photo-7.jpg"> <!--src="https://ableton-production.imgix.net/about/photo-7.jpg?dpr=2&fit=crop&h=250&ixjsv=1.1.3&q=50&w=250"-->
+                </div>
             </div>
 
+            <!--sixth text-->
+            <div class="py-14 margin-x-equal md:px-20 xl:px-48 xl:py-28">
+                <h1 class="font-medium text-xl xl:text-3xl my-auto">We want our employees to love it here. Since we’re looking for exceptional talent from around the world, we will do everything we can to make your transition as easy as possible.</h1>
+                <p class="font-light text-base xl:text-xl mt-3">If you're joining us in Berlin, we'll help with relocation and paperwork. We’ll even provide you with free German or English lessons. Plus, working in Germany means you can expect comprehensive health insurance for you and your family, as well as generous maternity and paternity leave. Office hours are flexible, but it’s not all work; we have several company and team outings throughout the year as well as a variety of fun, informal small-group activities.</p>
+            </div>
+
+            <!--last jobs area-->
+            <!--<div class="margin-x-equal ableton-skyblue" style="margin-bottom: 8.33333vw;"> -->
+                <div class="flex xl:flex-row flex-col ableton-skyblue margin-x-equal" style="margin-bottom: 8.33333vw;">
+                    <img class="object-cover last-block" style="height: 50vw;" src="/img/photo-8.jpg"> <!--src="https://ableton-production.imgix.net/about/photo-8.jpg?crop=right&dpr=2&fit=crop&h=300&ixjsv=1.1.3&q=50&w=500"-->
+                    <div>
+                        <p class="xl:inline-block margin-x-equal text-xl xl:text-3xl font-medium" style="padding-top: 8.33333vw;">We’re really proud of the work we’ve done so far. But there’s so much more to come. If you’d like to be a part of it, please join us.</p>
+                        <a href="#" class="inline-block text-xl xl:text-3xl font-medium ableton-blue margin-x-equal" style="padding-top: 3.33333vw; padding-bottom: 8.33333vw;">See latest jobs </a>
+                    </div>
+                </div>
+                
+                
+            <!--</div>-->
+            <div>
+
+            </div>
         </div> <!--end of content-->
         
         <!--the main Footer-->
-        <div class="text-gray-900">
+        <div class="block text-gray-900">
 
             <div>
                 <div class="w-screen hr-line bg-gray-200"></div>
-                <h1 class="ft-section pt-14 pb-10 font-semibold text-4xl">Ableton</h1>
+                <h1 class="margin-x-equal pt-14 pb-10 font-semibold text-6xl">Ableton</h1>
             </div>
             <!--First section contains page links "About", "Resources", "Contact", "Stay Updated"-->
-            <section class="ft-section flex flex-col space-y-10">
+            <section class="margin-x-equal flex flex-col lg:grid lg:grid-cols-3 lg:space-y-0 space-y-10">
                 
                 <!--Encalsulating About, Resources and Contact for better space adjustment-->
                 <!--Stay Updated-->
-                <div >
+                <div class="lg:order-3">
                     <div>
-                        <h1 class="font-medium">Sign up to our newsletter</h1>
-                        <p>Enter your email address to stay up to date with the latest offers, tutorials, downloads, surverys and more.</p>
+                        <h1 class="font-medium xl:text-xl">Sign up to our newsletter</h1>
+                        <p class="xl:text-xl mb-3">Enter your email address to stay up to date with the latest offers, tutorials, downloads, surverys and more.</p>
                         <form class="flex h-8">
-                            <input class="w-full px-5 bg-gray-100" type="email" name="email" placeholder="Enter Address">
+                            <input class="w-full xl:text-xl px-5 bg-gray-100" type="email" name="email" placeholder="Enter Address">
                             <input class="px-7 ableton-bg-blue text-white font-medium" type="submit" value="Sign up">
                         </form>
                     </div>
@@ -133,52 +173,52 @@
                 </div>
 
                 <!--Social Links-->
-                <div>
+                <div class="lg:order-1">
                     <ul>
-                        <li><a>Register Live or Push </a></li>
-                        <li><a>About Ableton </a></li>
-                        <li><a>Jobs </a></li>
+                        <li><a href="#" class="xl:text-xl">Register Live or Push </a></li>
+                        <li><a href="#" class="xl:text-xl">About Ableton </a></li>
+                        <li><a href="#" class="xl:text-xl">Jobs </a></li>
                     </ul>
                     <div class="flex space-x-3 mt-2">
-                        <a class="none fa fa-facebook fa-2x"></a>
-                        <a class="none fa fa-twitter fa-2x"></a>
-                        <a class="none fa fa-youtube-play fa-2x"></a>
-                        <a class="none fa fa-instagram fa-2x"></a>
+                        <a href="#" class="none fa fa-facebook fa-xl"></a>
+                        <a href="#" class="none fa fa-twitter fa-xl"></a>
+                        <a href="#" class="none fa fa-youtube-play fa-xl"></a>
+                        <a href="#" class="none fa fa-instagram fa-xl"></a>
                     </div>
                 </div>
                 
                 <!--Education-->
-                <div>
-                    <h1 class="font-medium">Education</h1>
+                <div class="lg:order-2">
+                    <h1 class="font-medium xl:text-xl">Education</h1>
                     <ul class="text-gray-700">
-                        <li><a>Offers fr students and teachers </a></li>
-                        <li><a>Ableton for the Classroom </a></li>
-                        <li><a>Ableton for Colleges and Universities </a></li>
+                        <li><a href="#" class="xl:text-xl">Offers fr students and teachers </a></li>
+                        <li><a href="#" class="xl:text-xl">Ableton for the Classroom </a></li>
+                        <li><a href="#" class="xl:text-xl">Ableton for Colleges and Universities </a></li>
                     </ul>
                 </div>
                 
                 <!--Community-->
-                <div>
-                    <h1 class="font-medium">Community</h1>
+                <div class="lg:order-4 lg:pt-8">
+                    <h1 class="font-medium xl:text-xl">Community</h1>
                     <ul class="text-gray-700">
-                        <li><a>Find Ableton User Groups </a></li>
-                        <li><a>Find Certified Training </a></li>
-                        <li><a>Become a Certified Trainer </a></li>
+                        <li><a href="#" class="xl:text-xl">Find Ableton User Groups </a></li>
+                        <li><a href="#" class="xl:text-xl">Find Certified Training </a></li>
+                        <li><a href="#" class="xl:text-xl">Become a Certified Trainer </a></li>
                     </ul>
                 </div>
 
                 <!--Contact-->
-                <div>
-                    <h1 class="font-medium">Distributors </h1>
+                <div class="lg:order-5 lg:pt-8">
+                    <h1 class="font-medium xl:text-xl">Distributors </h1>
                     <ul class="text-gray-700">
-                        <li><a>Find Disctributors </a></li>
-                        <li><a>Try Push in-store </a></li>
+                        <li><a href="#" class="xl:text-xl">Find Disctributors </a></li>
+                        <li><a href="#" class="xl:text-xl">Try Push in-store </a></li>
                     </ul>
                 </div>
 
                 <!--Languages and Location-->
-                <div>
-                    <h1 class="font-medium">Languages and Location</h1>
+                <div class="lg:order-6 lg:pt-8">
+                    <h1 class="font-medium xl:text-xl">Languages and Location</h1>
                     <div class="flex space-x-3 text-sm">
                         <select class="bg-gray-100 px-2 py-1 w-32">
                             <option value="english">English</option>
@@ -193,30 +233,30 @@
                     </div>
                 </div>
 
-                <!--Other Links-->
-                <div>
-                    <ul class="text-sm space-y-1">
-                        <li><a class="none">Archive</a></li>
-                        <li><a class="none">Contact Us</a></li>
-                        <li><a class="none">Press Resources</a></li>
-                        <li><a class="none">legal Info</a></li>
-                        <li><a class="none">Privacy Policy</a></li>
-                        <li><a class="none">Cookie Settings</a></li>
-                        <li><a class="none">Imprint</a></li>
-                    </ul>
+            </section>
+
+             <!--Other Links-->
+            <div class="flex flex-col lg:justify-between margin-x-equal pt-12 lg:pt-12 lg:pb-14 lg:flex-row">
+
+                <ul class="text-sm lg:flex lg:space-x-4">
+                    <li><a href="#" class="none">Archive</a></li>
+                    <li><a href="#" class="none">Contact Us</a></li>
+                    <li><a href="#" class="none">Press Resources</a></li>
+                    <li><a href="#" class="none">legal Info</a></li>
+                    <li><a href="#" class="none">Privacy Policy</a></li>
+                    <li><a href="#" class="none">Cookie Settings</a></li>
+                    <li><a href="#" class="none">Imprint</a></li>
+                </ul>
+    
+                <!--Logo-->
+                <div class="flex flex-row space-x-2 pt-12 pb-8 lg:pt-0 lg:pb-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                    </svg>
+                    <p class="text-sm my-auto">Made in Bangladesh</p>
                 </div>
 
-            </section>
-
-            
-
-            <!--Logo-->
-            <section class="flex flex-row space-x-3 ft-section my-14">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-                </svg>
-                <p class="text-sm my-auto">Made in Bangladesh</p>
-            </section>
+            </div>
 
         </div>
 
